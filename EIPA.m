@@ -53,7 +53,7 @@ plot(diag(D),'o')
 figure(3)
 % Remapping
 
-numModes = width(E);
+numModes = 9;
 for k = 1:numModes
     for i = 1:nx
         for j = 1:ny
